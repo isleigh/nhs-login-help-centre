@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/nhs-help-centre/css/nhs-toolkit.min.css">
+        <link rel="stylesheet" href="/nhs-help-centre/css/nhs-cookie-banner.css">
+        <title>NHS login Help Centre</title>
+    </head>
+    <body>
+        <div id="nhsuk-cookie-banner" style="display:none">
+  <div class="nhsuk-cookie-banner" id="cookiebanner">
+    <div class="nhsuk-width-container"> 
+        <h2>Cookies on the NHS website</h2> 
+        <p>We've put some small files called cookies on your device to make our site work.</p>
+        <p>We'd also like to use analytics cookies. These send information about how our site is used to services called Adobe Analytics, Hotjar and Google Analytics. We use this information to improve our site.</p>
+        <p>Let us know if this is OK. We'll use a cookie to save your choice. You can <a id="nhsuk-cookie-banner__link" href="/our-policies/cookies-policy/" tabindex="1">read more about our cookies</a> before you choose.</p>
+        <ul> 
+            <li><button class="nhsuk-button" id="nhsuk-cookie-banner__link_accept_analytics" href="#" tabindex="2">I'm OK with analytics cookies</button></li>
+            <li><button class="nhsuk-button" id="nhsuk-cookie-banner__link_accept" href="#" tabindex="3">Do not use analytics cookies</button></li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="nhsuk-success-banner" id="nhsuk-cookie-confirmation-banner" style="display:none;">
+    <div class="nhsuk-width-container">
+      <p id="nhsuk-success-banner__message">You can change your cookie settings at any time using our <a href="/our-policies/cookies-policy/">cookies page</a>.</p>
+    </div>
+  </div>
+</div>
+<script src=/nhs-help-centre/js/cookie_banner.js></script>
+        <header class="nhsuk-header" role="banner">
+  <div class="nhsuk-width-container nhsuk-header__container">
+    <div class="nhsuk-header__logo">
+      <a class="nhsuk-header__link nhsuk-header__link--service nhsuk-header__link--service-short-name" href="/nhs-help-centre/" aria-label="NHS.UK prototype kit home">
+        <svg class="nhsuk-logo nhsuk-logo--white" xmlns="http://www.w3.org/2000/svg" role="presentation" focusable="false" viewBox="0 0 40 16">
+          <path fill="#fff" d="M0 0h40v16H0z"></path>
+          <path fill="#005eb8" d="M3.9 1.5h4.4l2.6 9h.1l1.8-9h3.3l-2.8 13H9l-2.7-9h-.1l-1.8 9H1.1M17.3 1.5h3.6l-1 4.9h4L25 1.5h3.5l-2.7 13h-3.5l1.1-5.6h-4.1l-1.2 5.6h-3.4M37.7 4.4c-.7-.3-1.6-.6-2.9-.6-1.4 0-2.5.2-2.5 1.3 0 1.8 5.1 1.2 5.1 5.1 0 3.6-3.3 4.5-6.4 4.5-1.3 0-2.9-.3-4-.7l.8-2.7c.7.4 2.1.7 3.2.7s2.8-.2 2.8-1.5c0-2.1-5.1-1.3-5.1-5 0-3.4 2.9-4.4 5.8-4.4 1.6 0 3.1.2 4 .6"></path>
+          <image src="https://assets.nhs.uk/images/nhs-logo.png" xlink:href=""></image>
+        </svg>
+        <span class="nhsuk-header__service-name"></span>
+      </a>
+    </div>
+  </div>
+</header>
+<section class="nhsuk-hero">
+  <div class="nhsuk-width-container nhsuk-hero--border">
+    <div class="nhsuk-grid-row">
+      <div class="nhsuk-hero__wrapper">
+        <center>
+          <h1 class="nhsuk-u-margin-bottom-3">NHS login help centre</h1>
+          <p></p>
+          <div class="nhsuk-hub__search">
+            <center>
+              <div class="nhsuk-header__search-wrap nhsuk-hub__search-wrap" id="wrap-search">
+                <form class="nhsuk-header__search-form nhsuk-hub__search-form" id="search" action="/nhs-help-centre/search" method="get" role="search">
+                  <label class="nhsuk-u-visually-hidden" for="search-field">Enter search term or reference code</label>
+                  <div class="autocomplete-container" id="autocomplete-container">
+                    <div class="autocomplete__wrapper">
+                      <div style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin-bottom: -1px; margin-right: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 1px;">
+                        <div id="search-field__status--A" role="status" aria-atomic="true" aria-live="polite"></div>
+                        <div id="search-field__status--B" role="status" aria-atomic="true" aria-live="polite"></div>
+                      </div>
+                        <input
+                          aria-expanded="false"
+                          aria-owns="search-field__listbox"
+                          aria-autocomplete="list"
+                          aria-describedby="search-field__assistiveHint"
+                          autocomplete="off"
+                          class="autocomplete__input autocomplete__input--default nhsuk-hub__search-input"
+                          id="search-field"
+                          name="q" placeholder="Enter search term or reference code"
+                          type="text"
+                          role="combobox">
+                      <ul class="autocomplete__menu autocomplete__menu--inline autocomplete__menu--hidden" id="search-field__listbox" role="listbox"></ul>
+                      <span id="search-field__assistiveHint" style="display: none;">
+                        When autocomplete results are available use up and down arrows to review and enter to select.  Touch device users, explore by touch or with swipe gestures.
+                      </span>
+                    </div>
+                  </div>
+
+                  <button class="nhsuk-search__submit nhsuk-hub__search-submit" type="submit">
+                    <svg class="nhsuk-icon nhsuk-icon__search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                      <path d="M19.71 18.29l-4.11-4.1a7 7 0 1 0-1.41 1.41l4.1 4.11a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 10a5 5 0 1 1 5 5 5 5 0 0 1-5-5z"></path>
+                    </svg>
+                    <span class="nhsuk-u-visually-hidden">Enter search term or reference code</span>
+                  </button>
+                </form>
+              </div>
+            </center>
+          </div>
+        </center>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="nhsuk-width-container">
+  <main class="nhsuk-main-wrapper" id="maincontent" role="main">
+    <div class="nhsuk-grid-row">
+      <div class="nhsuk-grid-column-full">
+        <div class="nhsuk-grid-row nhsuk-panel-group nhsuk-u-margin-bottom-0"><div class="nhsuk-grid-column-one-half nhsuk-panel-group__item nhsuk-u-margin-0">
+              <div class="nhsuk-promo nhsuk-u-margin-bottom-5">
+                <a class="nhsuk-promo__link-wrapper" href="/nhs-help-centre/setupnhslogin/">
+                  <div class="nhsuk-promo__content">
+                    <h2 class="nhsuk-promo__heading">How to set up NHS login</h2>
+                    <p class="nhsuk-promo__description">
+                      Find out what NHS login is, how to set one up and where you can use it.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div><div class="nhsuk-grid-column-one-half nhsuk-panel-group__item nhsuk-u-margin-0">
+              <div class="nhsuk-promo nhsuk-u-margin-bottom-5">
+                <a class="nhsuk-promo__link-wrapper" href="/nhs-help-centre/manage/">
+                  <div class="nhsuk-promo__content">
+                    <h2 class="nhsuk-promo__heading">How to manage NHS login</h2>
+                    <p class="nhsuk-promo__description">
+                      Learn how to manage, edit and delete your NHS login.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div><div class="nhsuk-grid-column-one-half nhsuk-panel-group__item nhsuk-u-margin-0">
+              <div class="nhsuk-promo nhsuk-u-margin-bottom-5">
+                <a class="nhsuk-promo__link-wrapper" href="/nhs-help-centre/provewhoyouare/">
+                  <div class="nhsuk-promo__content">
+                    <h2 class="nhsuk-promo__heading">How to prove who you are</h2>
+                    <p class="nhsuk-promo__description">
+                      You can use photo I.D. and a video, or the registration details from your GP surgery’s online services.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div><div class="nhsuk-grid-column-one-half nhsuk-panel-group__item nhsuk-u-margin-0">
+              <div class="nhsuk-promo nhsuk-u-margin-bottom-5">
+                <a class="nhsuk-promo__link-wrapper" href="/nhs-help-centre/recordvideo/">
+                  <div class="nhsuk-promo__content">
+                    <h2 class="nhsuk-promo__heading">How to record and upload a video</h2>
+                    <p class="nhsuk-promo__description">
+                      Steps on how to record and upload a video that can be used to prove who you are.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div><div class="nhsuk-grid-column-one-half nhsuk-panel-group__item nhsuk-u-margin-0">
+              <div class="nhsuk-promo nhsuk-u-margin-bottom-5">
+                <a class="nhsuk-promo__link-wrapper" href="/nhs-help-centre/mixedsupport/">
+                  <div class="nhsuk-promo__content">
+                    <h2 class="nhsuk-promo__heading">Mixed reference support</h2>
+                    <p class="nhsuk-promo__description">
+                      Technical problems, general advice and known service issues.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div></div>
+      </div>
+    </div>
+  </main>
+</div>
+<footer role="contentinfo">
+  <div class="nhsuk-footer" id="nhsuk-footer">
+    <div class="nhsuk-width-container">
+      <h2 class="nhsuk-u-visually-hidden">Support links</h2>
+      <ul class="nhsuk-footer__list">
+        <li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link" href="https://digital.nhs.uk/services/nhs-login">NHS login for partners</a></li>
+      </ul>
+
+      <p class="nhsuk-footer__copyright">© Crown copyright</p>
+    </div>
+  </div>
+</footer>
+
+
+    </body>
+</html>

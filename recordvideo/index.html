@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/nhs-help-centre/css/nhs-toolkit.min.css">
+        <link rel="stylesheet" href="/nhs-help-centre/css/nhs-cookie-banner.css">
+        <title>How to record and upload a video</title>
+    </head>
+    <body>
+        <div id="nhsuk-cookie-banner" style="display:none">
+  <div class="nhsuk-cookie-banner" id="cookiebanner">
+    <div class="nhsuk-width-container"> 
+        <h2>Cookies on the NHS website</h2> 
+        <p>We've put some small files called cookies on your device to make our site work.</p>
+        <p>We'd also like to use analytics cookies. These send information about how our site is used to services called Adobe Analytics, Hotjar and Google Analytics. We use this information to improve our site.</p>
+        <p>Let us know if this is OK. We'll use a cookie to save your choice. You can <a id="nhsuk-cookie-banner__link" href="/our-policies/cookies-policy/" tabindex="1">read more about our cookies</a> before you choose.</p>
+        <ul> 
+            <li><button class="nhsuk-button" id="nhsuk-cookie-banner__link_accept_analytics" href="#" tabindex="2">I'm OK with analytics cookies</button></li>
+            <li><button class="nhsuk-button" id="nhsuk-cookie-banner__link_accept" href="#" tabindex="3">Do not use analytics cookies</button></li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="nhsuk-success-banner" id="nhsuk-cookie-confirmation-banner" style="display:none;">
+    <div class="nhsuk-width-container">
+      <p id="nhsuk-success-banner__message">You can change your cookie settings at any time using our <a href="/our-policies/cookies-policy/">cookies page</a>.</p>
+    </div>
+  </div>
+</div>
+<script src=/nhs-help-centre/js/cookie_banner.js></script>
+        <header class="nhsuk-header" role="banner">
+  <div class="nhsuk-width-container nhsuk-header__container">
+    <div class="nhsuk-header__logo">
+      <a class="nhsuk-header__link nhsuk-header__link--service nhsuk-header__link--service-short-name" href="/nhs-help-centre/">
+        <svg class="nhsuk-logo nhsuk-logo--white" xmlns="http://www.w3.org/2000/svg" role="presentation" focusable="false" viewBox="0 0 40 16">
+          <path fill="#fff" d="M0 0h40v16H0z"></path>
+          <path fill="#005eb8" d="M3.9 1.5h4.4l2.6 9h.1l1.8-9h3.3l-2.8 13H9l-2.7-9h-.1l-1.8 9H1.1M17.3 1.5h3.6l-1 4.9h4L25 1.5h3.5l-2.7 13h-3.5l1.1-5.6h-4.1l-1.2 5.6h-3.4M37.7 4.4c-.7-.3-1.6-.6-2.9-.6-1.4 0-2.5.2-2.5 1.3 0 1.8 5.1 1.2 5.1 5.1 0 3.6-3.3 4.5-6.4 4.5-1.3 0-2.9-.3-4-.7l.8-2.7c.7.4 2.1.7 3.2.7s2.8-.2 2.8-1.5c0-2.1-5.1-1.3-5.1-5 0-3.4 2.9-4.4 5.8-4.4 1.6 0 3.1.2 4 .6"></path>
+          <image src="https://assets.nhs.uk/images/nhs-logo.png" xlink:href=""></image>
+        </svg>
+        <span class="nhsuk-header__service-name">
+          NHS login help centre
+          </span>
+      </a>
+    </div>
+    <div class="nhsuk-header__content" id="content-header">
+      <div class="nhsuk-header__menu">
+        <button class="nhsuk-header__menu-toggle" id="toggle-menu" aria-controls="header-navigation" aria-label="Open menu" aria-expanded="true">Menu</button>
+      </div>
+      <div class="nhsuk-header__search">
+        <button class="nhsuk-header__search-toggle" id="toggle-search" aria-controls="search" aria-label="Open search" aria-expanded="false">
+          <svg class="nhsuk-icon nhsuk-icon__search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M19.71 18.29l-4.11-4.1a7 7 0 1 0-1.41 1.41l4.1 4.11a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 10a5 5 0 1 1 5 5 5 5 0 0 1-5-5z"></path>
+          </svg>
+          <span class="nhsuk-u-visually-hidden">Enter search term or reference code</span>
+        </button>
+        <div class="nhsuk-header__search-wrap" id="wrap-search">
+          <form class="nhsuk-header__search-form" id="search" action="/nhs-help-centre/search" method="get" role="search">
+            <label class="nhsuk-u-visually-hidden" for="search-field">Search the NHS login help centre</label>
+            <div class="autocomplete-container" id="autocomplete-container">
+              <div class="autocomplete__wrapper">
+                <div style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin-bottom: -1px; margin-right: -1px; overflow: hidden; padding: 0px; position: absolute; white-space: nowrap; width: 1px;">
+                  <div id="search-field__status--A" role="status" aria-atomic="true" aria-live="polite"></div>
+                  <div id="search-field__status--B" role="status" aria-atomic="true" aria-live="polite"></div>
+                </div>
+                <input aria-expanded="false" aria-owns="search-field__listbox" aria-autocomplete="list" aria-describedby="search-field__assistiveHint" autocomplete="off" class="autocomplete__input autocomplete__input--default" id="search-field" name="q" placeholder="Enter search term or reference code" type="text" role="combobox">
+                <ul class="autocomplete__menu autocomplete__menu--inline autocomplete__menu--hidden" id="search-field__listbox" role="listbox"></ul>
+                <span id="search-field__assistiveHint" style="display: none;">When autocomplete results are available use up and down arrows to review and enter to select.  Touch device users, explore by touch or with swipe gestures.</span></div>
+            </div>
+
+            <button class="nhsuk-search__submit" type="submit">
+              <svg class="nhsuk-icon nhsuk-icon__search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M19.71 18.29l-4.11-4.1a7 7 0 1 0-1.41 1.41l4.1 4.11a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 10a5 5 0 1 1 5 5 5 5 0 0 1-5-5z"></path>
+              </svg>
+              <span class="nhsuk-u-visually-hidden">Enter search term or reference code</span>
+            </button>
+            <button class="nhsuk-search__close" id="close-search">
+              <svg class="nhsuk-icon nhsuk-icon__close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M13.41 12l5.3-5.29a1 1 0 1 0-1.42-1.42L12 10.59l-5.29-5.3a1 1 0 0 0-1.42 1.42l5.3 5.29-5.3 5.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l5.29-5.3 5.29 5.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z"></path>
+              </svg>
+              <span class="nhsuk-u-visually-hidden">Close search</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<nav
+    class="nhsuk-header__navigation"
+    id="header-navigation"
+    role="navigation"
+    aria-label="Primary navigation"
+    aria-labelledby="label-navigation"
+  >
+  <div class="nhsuk-width-container">
+    <p class="nhsuk-header__navigation-title">
+      <span id="label-navigation">Menu</span>
+      <button class="nhsuk-header__navigation-close" id="close-menu">
+        <svg
+            class="nhsuk-icon nhsuk-icon__close"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            focusable="false"
+          >
+          <path
+              d="M13.41 12l5.3-5.29a1 1 0 1 0-1.42-1.42L12 10.59l-5.29-5.3a1 1 0 0 0-1.42 1.42l5.3 5.29-5.3 5.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l5.29-5.3 5.29 5.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z"
+            ></path>
+        </svg>
+        <span class="nhsuk-u-visually-hidden">Close menu</span>
+      </button>
+    </p>
+    <ul class="nhsuk-header__navigation-list">
+      <li
+          class="nhsuk-header__navigation-item nhsuk-header__navigation-item--for-mobile"
+        >
+        <a class="nhsuk-header__navigation-link" href="/">
+            Home
+            <svg
+              class="nhsuk-icon nhsuk-icon__chevron-right"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+            <path
+                d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"
+              ></path>
+          </svg>
+        </a>
+      </li>
+          <li class="nhsuk-header__navigation-item">
+            <a class="nhsuk-header__navigation-link" href="/nhs-help-centre/setupnhslogin/">
+              Set up
+              <svg class="nhsuk-icon nhsuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+              </svg>
+            </a>
+          </li>
+        
+          <li class="nhsuk-header__navigation-item">
+            <a class="nhsuk-header__navigation-link" href="/nhs-help-centre/manage/">
+              Manage
+              <svg class="nhsuk-icon nhsuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+              </svg>
+            </a>
+          </li>
+        
+          <li class="nhsuk-header__navigation-item">
+            <a class="nhsuk-header__navigation-link" href="/nhs-help-centre/provewhoyouare/">
+              Prove who you are
+              <svg class="nhsuk-icon nhsuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+              </svg>
+            </a>
+          </li>
+        
+          <li class="nhsuk-header__navigation-item">
+            <a class="nhsuk-header__navigation-link" href="/nhs-help-centre/recordvideo/">
+              Record a video
+              <svg class="nhsuk-icon nhsuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+              </svg>
+            </a>
+          </li>
+        
+          <li class="nhsuk-header__navigation-item">
+            <a class="nhsuk-header__navigation-link" href="/nhs-help-centre/mixedsupport/">
+              Mixed reference support
+              <svg class="nhsuk-icon nhsuk-icon__chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15.5 12a1 1 0 0 1-.29.71l-5 5a1 1 0 0 1-1.42-1.42l4.3-4.29-4.3-4.29a1 1 0 0 1 1.42-1.42l5 5a1 1 0 0 1 .29.71z"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+  </div>
+</nav>
+<script src=/nhs-help-centre/js/header.js></script>
+</header>
+
+<div class="nhsuk-width-container ">
+    <main class="nhsuk-main-wrapper " id="maincontent" role="main">
+        
+
+        <div class="nhsuk-width-container">
+            <div class="nhsuk-grid-row">
+                <div class="nhsuk-grid-column-one-third sticky-nav">
+                    <div class="article-section-nav-wrapper">
+                        <div class="article-section-nav">
+                            <h2 class="article-section-nav__title">How to record and upload a video</h2>
+                            <nav>
+                                <ol class="article-section-nav__list"><li>
+                                                <a href="#how-to-record-a-short-video" aria-label="Scroll to 'How to record a short video'" title="Scroll to 'How to record a short video'">
+                                                    How to record a short video
+                                                </a>
+                                            </li><li>
+                                                <a href="#camera-does-not-work-when-recording-a-video" aria-label="Scroll to 'Camera does not work when recording a video'" title="Scroll to 'Camera does not work when recording a video'">
+                                                    Camera does not work when recording a video
+                                                </a>
+                                            </li><li>
+                                                <a href="#unable-to-replay-or-upload-your-video" aria-label="Scroll to 'Unable to replay or upload your video'" title="Scroll to 'Unable to replay or upload your video'">
+                                                    Unable to replay or upload your video
+                                                </a>
+                                            </li><li>
+                                                <a href="#what-to-do-if-your-video-file-is-damaged" aria-label="Scroll to 'What to do if your video file is damaged'" title="Scroll to 'What to do if your video file is damaged'">
+                                                    What to do if your video file is damaged
+                                                </a>
+                                            </li><li>
+                                                <a href="#camera-unavailable-when-trying-to-record-a-video" aria-label="Scroll to 'Camera unavailable when trying to record a video'" title="Scroll to 'Camera unavailable when trying to record a video'">
+                                                    Camera unavailable when trying to record a video
+                                                </a>
+                                            </li><li>
+                                                <a href="#what-to-do-if-you-cannot-record-or-upload-a-video" aria-label="Scroll to 'What to do if you cannot record or upload a video'" title="Scroll to 'What to do if you cannot record or upload a video'">
+                                                    What to do if you cannot record or upload a video
+                                                </a>
+                                            </li><li>
+                                                <a href="#what-does-reference-cid4011-mean%3F" aria-label="Scroll to 'What does reference CID4011 mean?'" title="Scroll to 'What does reference CID4011 mean?'">
+                                                    What does reference CID4011 mean?
+                                                </a>
+                                            </li><li>
+                                                <a href="#what-does-reference-cid4012-mean%3F" aria-label="Scroll to 'What does reference CID4012 mean?'" title="Scroll to 'What does reference CID4012 mean?'">
+                                                    What does reference CID4012 mean?
+                                                </a>
+                                            </li></ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="nhsuk-grid-column-two-thirds article-content">
+                    <h2 id="how-to-record-a-short-video">How to record a short video</h2>
+<p>To record a good short video, make sure:</p>
+<ul>
+<li>your entire face is visible</li>
+<li>you face the camera directly</li>
+<li>your face is not covered by a hat or glasses</li>
+</ul>
+<p>You will be asked to repeat 4 randomly generated numbers. You can say the numbers out loud or write them down and show them.</p>
+<p>If you say the numbers, make sure your voice is loud and clear. If you write the numbers down, make sure they are clear and the paper is not held in front of your face.</p>
+<hr>
+<h2 id="camera-does-not-work-when-recording-a-video">Camera does not work when recording a video</h2>
+<p>If the camera does not open or shows a black screen when recording a video, this may be a problem with permissions.</p>
+<p>You should make sure the web browser on your device has camera and microphone permissions. You must also give permission for the NHS login website to access your device’s camera and microphone.</p>
+<h3 id="ios-devices">iOS devices</h3>
+<p>If you have an iOS device, updating the iOS operating system software on your device to a newer version may also help, if available. Version 11.2 iOS will always show a black screen when trying to open the camera. There is an <a href="https://support.apple.com/en-gb" title="Apple support article">Apple support article</a> that describes how to check for updates.</p>
+<h3 id="android-devices">Android devices</h3>
+<p>If you have an Android device, you should avoid the ‘camera’ option when given a choice of applications to record the video with. You should choose a video option instead, like ‘camcorder’ or ‘capture video’.</p>
+<p><a href="#how-to-give-your-web-browser-permission-to-access-the-camera-and-microphone">How to give your web browser permission to access the camera and microphone</a></p>
+<p><a href="#how-to-give-our-website-permission-to-access-the-camera-and-microphone">How to give our website permission to access the camera and microphone</a></p>
+<hr>
+<h2 id="unable-to-replay-or-upload-your-video">Unable to replay or upload your video</h2>
+<p>If you cannot replay your video, this could be because the video format captured by your device camera is not supported by your browser.</p>
+<p>We are testing ways to support additional video formats. In the meantime, users can change the video format of the device to a supported format.</p>
+<p>For example:</p>
+<ul>
+<li>video/mp4</li>
+<li>video/webm</li>
+</ul>
+<p>If this does not work, you can also try recording a video on another device. For example, you can use another phone or tablet that belongs to you or a family member.</p>
+<hr>
+<h2 id="what-to-do-if-your-video-file-is-damaged">What to do if your video file is damaged</h2>
+<p>We run a virus check on your video file before it is verified. If the file you upload is infected or damaged, you can try and upload another one.</p>
+<p>If this keeps happening, there might be a problem with your device. You can try recording a video using a different device and upload it from there. For example, you could borrow a family member’s device to record and upload a video instead. Once verified, you can then use NHS login on your usual device as normal.</p>
+<p><a href="#how-to-prove-who-you-are-without-photo-I.D">How to prove who you are without photo I.D</a></p>
+<hr>
+<p>## Camera unavailable when trying to record a video</p>
+<p>If your gallery or file manager opens instead of your camera when trying to record a video, you may have an issue with permissions.</p>
+<p>You must give permission for your web browser to access the camera and microphone. If your web browser does not have permission, you will not be given the option to use the camera.</p>
+<p>You must also give permission for the NHS login website to access your device’s camera and microphone.</p>
+<p>If this problem keeps happening even with permissions allowed, there might be a problem with your device. You can try opening your camera app separately to record a video.</p>
+<p>If this does not work, you can also try recording a video on another device. For example, you can use another phone or tablet that belongs to you or a family member.</p>
+<p><a href="#how-to-give-your-web-browser-permission-to-access-the-camera-and-microphone">How to give your web browser permission to access the camera and microphone</a></p>
+<p><a href="#how-to-give-our-website-permission-to-access-the-camera-and-microphone">How to give our website permission to access the camera and microphone</a></p>
+<hr>
+<h2 id="what-to-do-if-you-cannot-record-or-upload-a-video">What to do if you cannot record or upload a video</h2>
+<p>If you are registered for your GP surgery’s online services, you can use your registration details to prove who you are instead of using photo I.D. and a video.</p>
+<p><a href="#how-to-prove-who-you-are-without-photo-I.D">How to prove who you are without photo I.D</a></p>
+<hr>
+<h2 id="what-does-reference-cid4011-mean%3F">What does reference CID4011 mean?</h2>
+<p>If reference CID4011 is shown, this is because your video has failed to upload. If this keeps happening there may be a problem with your internet connection, or a technical problem on our side.</p>
+<p>You can try uploading your video another time or use a better internet connection. For example, you should make sure you are using a good Wi-Fi connection. Try using a different Wi-Fi connection if the one you are using does not work.</p>
+<p><a href="#how-to-prove-who-you-are-without-photo-I.D">How to prove who you are without photo I.D</a></p>
+<hr>
+<h2 id="what-does-reference-cid4012-mean%3F">What does reference CID4012 mean?</h2>
+<p>If reference CID4012 is shown, this means we are having technical problems on our side or it might be a problem with your internet connection. This is stopping us from validating your short video.</p>
+<p>You can try uploading your video another time or use a better internet connection. For example, you should make sure you are using a good Wi-Fi connection. Try using a different Wi-Fi connection if the one you are using does not work.</p>
+<p>If you keep getting this message, please try again later.</p>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<script type="text/javascript">
+    window.level = 2
+</script>
+<script src=/nhs-help-centre/js/header-marker.js></script>
+<footer role="contentinfo">
+  <div class="nhsuk-footer" id="nhsuk-footer">
+    <div class="nhsuk-width-container">
+      <h2 class="nhsuk-u-visually-hidden">Support links</h2>
+      <ul class="nhsuk-footer__list">
+        <li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link" href="https://digital.nhs.uk/services/nhs-login">NHS login for partners</a></li>
+      </ul>
+
+      <p class="nhsuk-footer__copyright">© Crown copyright</p>
+    </div>
+  </div>
+</footer>
+
+
+    </body>
+</html>
