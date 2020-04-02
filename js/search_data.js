@@ -139,7 +139,7 @@ var tipuesearch = {
 			{
 				"url": "/nhs-login-help-centre/recordvideo#what-to-do-if-your-video-file-is-damaged",
 				"title": "What to do if your video file is damaged",
-				"text": "We run a virus check on your video file before it is verified. If the file you upload is infected or damaged, you can try and upload another one. If this keeps happening, there might be a problem with your device. You can try recording a video using a different device and upload it from there. For example, you could borrow a family member’s device to record and upload a video instead. Once verified, you can then use NHS login on your usual device as normal.",
+				"text": "We run a virus check on your video file before it is verified. If the file you upload is infected or damaged, you can try and upload another one. If this keeps happening, there might be a problem with your device. You can try recording a video using a different device and upload it from there. For example, you could borrow a family member’s device to record and upload a video instead. Once verified, you can then use NHS login on your usual device as normal. Find out how to prove who you are without using photo I.D. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
@@ -155,22 +155,22 @@ var tipuesearch = {
 			{
 				"url": "/nhs-login-help-centre/recordvideo#what-to-do-if-you-cannot-record-or-upload-a-video",
 				"title": "What to do if you cannot record or upload a video",
-				"text": "If you are registered for your GP surgery’s online services, you can use your registration details to prove who you are instead of using photo I.D. and a video.",
+				"text": "If you are registered for your GP surgery’s online services, you can use your registration details to prove who you are instead of using photo I.D. and a video. Find out how to prove who you are without using photo I.D. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
 			,
 			{
-				"url": "/nhs-login-help-centre/recordvideo#what-does-reference-cid4011-mean%3F",
-				"title": "What does reference CID4011 mean?",
-				"text": "If reference CID4011 is shown, this is because your video has failed to upload. If this keeps happening there may be a problem with your internet connection, or a technical problem on our side. You can try uploading your video another time or use a better internet connection. For example, you should make sure you are using a good Wi-Fi connection. Try using a different Wi-Fi connection if the one you are using does not work.",
+				"url": "/nhs-login-help-centre/recordvideo#reference-cid4011%3A-your-video-has-failed-to-upload",
+				"title": "Reference CID4011: Your video has failed to upload",
+				"text": "If reference CID4011 is shown, this is because your video has failed to upload. If this keeps happening there may be a problem with your internet connection, or a technical problem on our side. You can try uploading your video another time or use a better internet connection. For example, you should make sure you are using a good Wi-Fi connection. Try using a different Wi-Fi connection if the one you are using does not work. Find out how to prove who you are without using photo I.D. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
 			,
 			{
-				"url": "/nhs-login-help-centre/recordvideo#what-does-reference-cid4012-mean%3F",
-				"title": "What does reference CID4012 mean?",
+				"url": "/nhs-login-help-centre/recordvideo#reference-cid4012%3A-we-cannot-validate-your-video",
+				"title": "Reference CID4012: We cannot validate your video",
 				"text": "If reference CID4012 is shown, this means we are having technical problems on our side or it might be a problem with your internet connection. This is stopping us from validating your short video. You can try uploading your video another time or use a better internet connection. For example, you should make sure you are using a good Wi-Fi connection. Try using a different Wi-Fi connection if the one you are using does not work. If you keep getting this message, please try again later.",
 				"tags": "",
 				"hasSearchExcerpt": false
@@ -467,7 +467,7 @@ var tipuesearch = {
 			{
 				"url": "/nhs-login-help-centre/provewhoyouare/withid#camera-unavailable-when-trying-to-take-a-photo",
 				"title": "Camera unavailable when trying to take a photo",
-				"text": "If your gallery or file manager opens instead of your camera when trying to take a photo, you may have an issue with permissions. You must give permission for your web browser to access the camera and microphone. If your web browser does not have permission, you will not be given the option to use the camera. Instead, your device&#39;s photo gallery or file manager app will open instead. You must also give permission for the NHS login website to access your device’s camera and microphone. If this problem keeps happening even with permissions allowed, there might be a problem with your device. You can try opening your camera app separately to take a photo of your I.D. When you have taken a photo, you can then start again and prove who you are by selecting ‘upload a photo’. If this does not work, you can also try taking a photo on another device. For example, you can use another phone or tablet that belongs to you or a family member. How to prove who you are without photo I.D. ***",
+				"text": "If your gallery or file manager opens instead of your camera when trying to take a photo, you may have an issue with permissions. You must give permission for your web browser to access the camera and microphone. If your web browser does not have permission, you will not be given the option to use the camera. Instead, your device&#39;s photo gallery or file manager app will open instead. You must also give permission for the NHS login website to access your device’s camera and microphone. If this problem keeps happening even with permissions allowed, there might be a problem with your device. You can try opening your camera app separately to take a photo of your I.D. When you have taken a photo, you can then start again and prove who you are by selecting ‘upload a photo’. If this does not work, you can also try taking a photo on another device. For example, you can use another phone or tablet that belongs to you or a family member. Find out how to prove who you are without using photo I.D. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
@@ -539,7 +539,7 @@ var tipuesearch = {
 			{
 				"url": "/nhs-login-help-centre/provewhoyouare/withid#what-to-do-if-your-photo-file-is-damaged",
 				"title": "What to do if your photo file is damaged",
-				"text": "We run a virus check on the photo of your I.D. If the file you upload is infected or damaged, you can try and upload another one. If this keeps happening, there might be a problem with your device. Try taking a photo using a different device. For example, you can use another phone or tablet that belongs to you or a family member. Send the photo to your usual device and try uploading it again. Or, you can upload your photo from the other device just to prove who you are. Once you have proven who you are, you can then use NHS login on your usual device as normal. How to prove who you are without photo I.D. ***",
+				"text": "We run a virus check on the photo of your I.D. If the file you upload is infected or damaged, you can try and upload another one. If this keeps happening, there might be a problem with your device. Try taking a photo using a different device. For example, you can use another phone or tablet that belongs to you or a family member. Send the photo to your usual device and try uploading it again. Or, you can upload your photo from the other device just to prove who you are. Once you have proven who you are, you can then use NHS login on your usual device as normal. Find out how to prove who you are without using photo I.D. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
@@ -555,23 +555,31 @@ var tipuesearch = {
 			{
 				"url": "/nhs-login-help-centre/provewhoyouare/withid#what-happens-if-you-do-not-pass-the-check%3F",
 				"title": "What happens if you do not pass the check?",
-				"text": "If you do not pass the photo I.D. check, we will send you an email with some advice. We will tell you whether you should try again and what you can do to pass. If you keep getting the same problem, you can prove who you are without photo I.D. instead. How to prove who you are without photo I.D. ***",
+				"text": "If you do not pass the photo I.D. check, we will send you an email with some advice. We will tell you whether you should try again and what you can do to pass. If you keep getting the same problem, you can prove who you are without photo I.D. instead. Find out how to prove who you are without using photo I.D. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
 			,
 			{
-				"url": "/nhs-login-help-centre/provewhoyouare/withid#what-does-error-reference-cid4002-mean%3F",
-				"title": "What does error reference CID4002 mean?",
-				"text": "If you see the error reference code CID4002, this is because the picture of your photo I.D. has failed to upload. If this keeps happening there may be a problem with your internet connection, or a technical problem on our side. You can try uploading a photo of your I.D. another time or use a better internet connection. For example, you should make sure you are using Wi-Fi instead of your phone’s cellular data. Try using a different Wi-Fi connection if the one you are using doesn’t work. If you keep getting this message, contact us so we can try to fix the problem. ***",
+				"url": "/nhs-login-help-centre/provewhoyouare/withid#reference-cid4002%3A-your-photo-i.d.-has-failed-to-upload",
+				"title": "Reference CID4002: Your photo I.D. has failed to upload",
+				"text": "If you see the error reference code CID4002, this is because the picture of your photo I.D. has failed to upload. If this keeps happening there may be a problem with your internet connection, or a technical problem on our side. You can try uploading a photo of your I.D. another time or use a better internet connection. For example, you should make sure you are using Wi-Fi instead of your phone’s cellular data. Try using a different Wi-Fi connection if the one you are using doesn’t work. If you keep getting this message, contact us so we can try to fix the problem. Find out how to prove who you are without using photo I.D. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
 			,
 			{
-				"url": "/nhs-login-help-centre/provewhoyouare/withid#what-does-error-reference-cid8002-mean%3F",
-				"title": "What does error reference CID8002 mean?",
-				"text": "If you see the error reference code CID8002, this is because the picture of your photo I.D. has failed to upload. If this keeps happening there may be a problem with your internet connection, or a technical problem on our side. You can try uploading a photo of your I.D. another time or use a better internet connection. For example, you should make sure you are using Wi-Fi instead of your phone’s cellular data. Try using a different Wi-Fi connection if the one you are using doesn’t work. If you keep getting this message, contact us so we can try to fix the problem. How to prove who you are without photo I.D.",
+				"url": "/nhs-login-help-centre/provewhoyouare/withid#reference-cid8002%3A-your-photo-i.d.-has-failed-to-upload",
+				"title": "Reference CID8002: Your photo I.D. has failed to upload",
+				"text": "If you see the error reference code CID8002, this is because the picture of your photo I.D. has failed to upload. If this keeps happening there may be a problem with your internet connection, or a technical problem on our side. You can try uploading a photo of your I.D. another time or use a better internet connection. For example, you should make sure you are using Wi-Fi instead of your phone’s cellular data. Try using a different Wi-Fi connection if the one you are using doesn’t work. If you keep getting this message, contact us so we can try to fix the problem. Find out how to prove who you are without using photo I.D.",
+				"tags": "",
+				"hasSearchExcerpt": false
+			}
+			,
+			{
+				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#how-to-prove-who-you-are-without-photo-i.d.",
+				"title": "How to prove who you are without photo I.D.",
+				"text": "If you are registered for your GP surgery’s online services, you will have been given 3 registration details. The 3 registration details are: * Linkage Key (could be called Passphrase) * O.D.S. Code (could be called Organisation Code or Practice I.D.) * Account I.D. You can use these 3 registration details to prove who you are instead of using photo I.D. This is not the same as the username and password you use to log into your GP surgery’s online services. Find out how you can use photo I.D. to prove who you are instead. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
@@ -579,7 +587,7 @@ var tipuesearch = {
 			{
 				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#how-to-register-for-your-gp-surgery%E2%80%99s-online-services",
 				"title": "How to register for your GP surgery’s online services",
-				"text": "Tell your GP surgery that you want to register for their online services. They will ask you to fill in a form. You will then be given 3 registration details: * Linkage Key (could be called Passphrase) * O.D.S. Code (could be called Organisation Code or Practice I.D.) * Account I.D. You can use these 3 registration details to prove who you are instead of sending a photo of your I.D. You cannot use the username and password you use to log into your GP surgery’s online services. How to prove who you are with photo I.D. ***",
+				"text": "Tell your GP surgery that you want to register for their online services. They will ask you to fill in a form. You will then be given 3 registration details: * Linkage Key (could be called Passphrase) * O.D.S. Code (could be called Organisation Code or Practice I.D.) * Account I.D. You can use these 3 registration details to prove who you are instead of sending a photo of your I.D. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
@@ -587,7 +595,7 @@ var tipuesearch = {
 			{
 				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#how-to-find-your-registration-details-from-your-gp-surgery%E2%80%99s-online-services",
 				"title": "How to find your registration details from your GP surgery’s online services",
-				"text": "If you do not know or remember your registration details, you can ask your GP to give you them. The 3 details you need are: * Linkage Key (could be called Passphrase) * O.D.S. Code (could be called Organisation Code or Practice I.D.) * Account I.D. How to prove who you are with photo I.D. ***",
+				"text": "If you do not know or remember your registration details, you can ask your GP to give you them. The 3 details you need are: * Linkage Key (could be called Passphrase) * O.D.S. Code (could be called Organisation Code or Practice I.D.) * Account I.D. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
@@ -601,33 +609,33 @@ var tipuesearch = {
 			}
 			,
 			{
-				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#wrong-details-%E2%80%93-reference-cid7001",
-				"title": "Wrong details – Reference CID7001",
+				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#reference-cid7001%3A-wrong-details",
+				"title": "Reference CID7001: Wrong details",
 				"text": "Reference CID7001 is shown when 1 or more of the details you enter are wrong. This could be because you have wrongly entered 1 or more of your 3 registration details from your GP surgery’s online services. Or, it could mean the name and date of birth you entered does not match what is on your NHS record. You can try again, making sure you enter the correct details. If this keeps on happening, contact your GP surgery to check you have the right registration details. If you have the right details, ask your GP surgery to check your name and date of birth is correct and up to date on your NHS record.",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
 			,
 			{
-				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#you-need-permission-to-use-your-gp-surgery%E2%80%99s-online-services-%E2%80%93-reference-cid7002",
-				"title": "You need permission to use your GP surgery’s online services – Reference CID7002",
+				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#reference-cid7002%3A-you-need-permission-to-use-your-gp-surgery%E2%80%99s-online-services",
+				"title": "Reference CID7002: You need permission to use your GP surgery’s online services",
 				"text": "Speak to your GP as you may need permission to access your GP surgery’s online services. If you are trying to prove who you are, you can do this using photo I.D. instead. You will not need the registration details from your GP surgery’s online services to do this. If you are trying to use the NHS App you should speak to your GP surgery about using their online services.",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
 			,
 			{
-				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#we-cannot-find-you-on-our-system-%E2%80%93-reference-cid7003",
-				"title": "We cannot find you on our system – Reference CID7003",
+				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#reference-cid7003%3A-we-cannot-find-you-on-our-system",
+				"title": "Reference CID7003: We cannot find you on our system",
 				"text": "Reference CID7003 is shown when we cannot not find a match on our system for the details you entered. This could mean that you have wrongly entered the registration details from your GP surgery’s online services. Or, it could mean the name and date of birth you entered does not match what is on your NHS record. Contact your GP surgery to check you have the right registration details. If you have the right details, ask your GP surgery to check your name and date of birth is correct and up to date on your NHS record.",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
 			,
 			{
-				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#we-cannot-find-your-gp-surgery-%E2%80%93-reference-cid7006",
-				"title": "We cannot find your GP surgery – Reference CID7006",
-				"text": "Reference CID7006 is shown when we cannot find a GP system using the O.D.S. code your entered. This can happen if you change GP surgery. It can also happen if your GP leaves or joins a GP surgery group. Contact your GP surgery to check you have the right registration details, making sure you have the correct O.D.S. code. How to prove who you are with photo I.D. ***",
+				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#reference-cid7006%3A-we-cannot-find-your-gp-surgery",
+				"title": "Reference CID7006: We cannot find your GP surgery",
+				"text": "Reference CID7006 is shown when we cannot find a GP system using the O.D.S. code your entered. This can happen if you change GP surgery. It can also happen if your GP leaves or joins a GP surgery group. Contact your GP surgery to check you have the right registration details, making sure you have the correct O.D.S. code. Find out how you can use photo I.D. to prove who you are instead. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
@@ -641,9 +649,9 @@ var tipuesearch = {
 			}
 			,
 			{
-				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#what-does-reference-cid2020-mean%3F",
-				"title": "What does reference CID2020 mean?",
-				"text": "Reference CID2020 is shown when the registration details from your GP surgery’s online services are invalid. This means we cannot connect you to your GP surgery’s online services. This could be because: * you have changed GP surgery * your GP surgery has changed systems * you do not have permission to use your GP surgery’s online services You can ask your GP for new registration details for their online services. You can use these new details to try to prove who you are. How to prove who you are with photo I.D.",
+				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#reference-cid2020%3A-unable-to-connect-to-your-gp-surgery%E2%80%99s-online-services",
+				"title": "Reference CID2020: Unable to connect to your GP surgery’s online services",
+				"text": "Reference CID2020 is shown when the registration details from your GP surgery’s online services are invalid. This means we cannot connect you to your GP surgery’s online services. This could be because: * you have changed GP surgery * your GP surgery has changed systems * you do not have permission to use your GP surgery’s online services You can ask your GP for new registration details for their online services. You can use these new details to try to prove who you are. Find out how you can use photo I.D. to prove who you are instead.",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
