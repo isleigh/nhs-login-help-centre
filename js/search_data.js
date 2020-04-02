@@ -1,6 +1,5 @@
 var tipuesearch = {
 	"pages": [
-		,
 			{
 				"url": "/nhs-login-help-centre/mixedsupport#reference-cid2011%3A-there-may-be-a-problem-with-your-nhs-number",
 				"title": "Reference CID2011: There may be a problem with your NHS number",
@@ -97,7 +96,6 @@ var tipuesearch = {
 				"hasSearchExcerpt": false
 			}
 			,
-		,
 			{
 				"url": "/nhs-login-help-centre/recordvideo#how-to-record-a-short-video",
 				"title": "How to record a short video",
@@ -178,7 +176,6 @@ var tipuesearch = {
 				"hasSearchExcerpt": false
 			}
 			,
-		,
 			{
 				"url": "/nhs-login-help-centre/setupnhslogin#what-is-nhs-login%3F",
 				"title": "What is NHS login?",
@@ -211,7 +208,6 @@ var tipuesearch = {
 				"hasSearchExcerpt": false
 			}
 			,
-		,
 			{
 				"url": "/nhs-login-help-centre/manage/delete#how-to-manage-your-nhs-login-within-websites-and-apps",
 				"title": "How to manage your NHS login within websites and apps",
@@ -236,7 +232,6 @@ var tipuesearch = {
 				"hasSearchExcerpt": false
 			}
 			,
-		,
 			{
 				"url": "/nhs-login-help-centre/manage/devices#how-to-add-a-remembered-device",
 				"title": "How to add a remembered device",
@@ -253,7 +248,6 @@ var tipuesearch = {
 				"hasSearchExcerpt": false
 			}
 			,
-		,
 			{
 				"url": "/nhs-login-help-centre/manage/emailaddresses#the-confirm-email-address-link-in-your-email-does-not-work",
 				"title": "The confirm email address link in your email does not work",
@@ -318,7 +312,6 @@ var tipuesearch = {
 				"hasSearchExcerpt": false
 			}
 			,
-		,
 			{
 				"url": "/nhs-login-help-centre/manage/passwords#how-to-change-your-nhs-login-password",
 				"title": "How to change your NHS login password",
@@ -359,7 +352,6 @@ var tipuesearch = {
 				"hasSearchExcerpt": false
 			}
 			,
-		,
 			{
 				"url": "/nhs-login-help-centre/manage/phonenumber#how-to-change-your-mobile-phone-number",
 				"title": "How to change your mobile phone number",
@@ -424,7 +416,6 @@ var tipuesearch = {
 				"hasSearchExcerpt": false
 			}
 			,
-		,
 			{
 				"url": "/nhs-login-help-centre/provewhoyouare/withid#what-you-need-to-prove-who-you-are",
 				"title": "What you need to prove who you are",
@@ -585,7 +576,6 @@ var tipuesearch = {
 				"hasSearchExcerpt": false
 			}
 			,
-		,
 			{
 				"url": "/nhs-login-help-centre/provewhoyouare/withoutid#how-to-register-for-your-gp-surgery%E2%80%99s-online-services",
 				"title": "How to register for your GP surgery’s online services",
