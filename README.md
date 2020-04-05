@@ -1,5 +1,5 @@
 # NHS Help Centre
-Help pages for lost users
+Help pages fo lost users
 
 ## Setup
 - `npm install`
